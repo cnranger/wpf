@@ -1,0 +1,15 @@
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\bin\Debug\Inventory.exe.config
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\bin\Debug\Inventory.exe
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\bin\Debug\Inventory.pdb
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\MainWindow.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\App.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory_MarkupCompile.cache
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory_MarkupCompile.lref
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\MainWindow.baml
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.g.resources
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.exe
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory\obj\Debug\Inventory.pdb

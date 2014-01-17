@@ -1,0 +1,67 @@
+﻿<Window x:Class="Inventory.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:local="clr-namespace:Inventory.UI"
+        xmlns:converters="clr-namespace:Inventory.UI.Converters"
+        xmlns:controls="clr-namespace:Inventory.Core.Controls;assembly=Inventory.Core"
+        Title="JP Morgan Inventory" Height="800" Width="1024">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\MainStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:IsRoadVehicleConverter x:Key="IsRoadVehicleConverter"/>
+            <converters:TypeToTypeNameConverter x:Key="TypeToTypeNameConverter"/>
+            <converters:TypeToWheelCountConverter x:Key="TypeToWheelCountConverter"/>
+            <DataTemplate DataType="{x:Type local:InventoryItemViewModel}">
+                <local:VehicleContent/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
+    <controls:AdornedControl Name="IsAdornerVisible" IsAdornerVisible="{Binding IsBusy}">
+        <controls:AdornedControl.AdornerContent>
+            <local:LoadingWait/>
+        </controls:AdornedControl.AdornerContent>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid IsReadOnly="True" Name="dataGrid" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Vehicles}" AutoGenerateColumns="False" GridLinesVisibility="Vertical" RowBackground="Beige" 
+                  AlternatingRowBackground="Bisque">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  Header="Type" Binding="{Binding Vehicle, Converter={StaticResource TypeToTypeNameConverter}}"/>
+                    <DataGridTextColumn Header="Make" Binding="{Binding Vehicle.Make}" />
+                    <DataGridTextColumn Header="Model" Binding="{Binding Vehicle.Model}"/>
+                    <DataGridTextColumn Header="Number of Wheels" Binding="{Binding Vehicle, Converter={StaticResource TypeToWheelCountConverter}}"/>
+                    <DataGridCheckBoxColumn Header="Road Vehicle" Binding="{Binding Vehicle.Environment, Converter={StaticResource IsRoadVehicleConverter}, Mode=OneWay}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <ContentControl Grid.Row="1" Grid.Column="2" Content="{Binding ElementName=dataGrid, Path=SelectedItem}"/>
+            <StatusBar Grid.Row="2" Grid.ColumnSpan="2" BorderBrush="Black"/>
+
+            <Button Content ="Test" Grid.Row="4" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse Fill="{TemplateBinding Background}"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+    </controls:AdornedControl>
+</Window>

@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory.Core\bin\Debug\Inventory.Core.dll
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory.Core\bin\Debug\Inventory.Core.pdb
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.dll
+c:\users\user\documents\visual studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.pdb
