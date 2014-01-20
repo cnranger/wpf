@@ -39,3 +39,27 @@ C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\obj\D
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\obj\Debug\Resources\MainStyle.baml
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\obj\Debug\LoadingWait.baml
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\obj\Debug\LoadingWait.g.cs
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.pdb
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.UI.pdb
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.Core.dll
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.Service.dll
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.Core.pdb
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.Service.pdb
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.csprojResolveAssemblyReference.cache
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\LoadingWait.baml
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Resources\MainStyle.baml
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\LoadingWait.g.cs
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\MainWindow.g.cs
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\VehicleContent.g.cs
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI_MarkupCompile.cache
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI_MarkupCompile.lref
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\MainWindow.baml
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\View\VehicleContent.baml
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.g.resources
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.Properties.Resources.resources
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.csproj.GenerateResource.Cache
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Inventory.UI.dll
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\User\WPF\Inventory\Inventory.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\Inventory.UI.dll

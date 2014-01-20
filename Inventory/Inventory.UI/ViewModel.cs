@@ -18,7 +18,7 @@ namespace Inventory.UI
             
             Vehicles = new ObservableCollection<InventoryItemViewModel>();
             var task = Task.Factory.StartNew(() => service.GetItems());
-            TaskScheduler taskScheduler = TaskScheduler.FromCurrentSynchronizationContext();
+         //   TaskScheduler taskScheduler = TaskScheduler.FromCurrentSynchronizationContext();
 
             task.ContinueWith(x =>
                 {
@@ -34,7 +34,7 @@ namespace Inventory.UI
                         }
                     }
                     IsBusy = false;
-                }, taskScheduler);
+                });
         }
 
         public ObservableCollection<InventoryItemViewModel> Vehicles { set; get; }

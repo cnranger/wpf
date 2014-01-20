@@ -1,20 +1,20 @@
 ﻿Inventory.UI
 
 
-winexe
+library
 C#
 .cs
-C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\obj\Debug\
+C:\Users\User\WPF\Inventory\Inventory.UI\obj\Debug\
 Inventory.UI
 none
 false
 DEBUG;TRACE
-C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.UI\App.xaml
-451648341
 
-241029828075
-17367328737
-LoadingWait.xaml;MainWindow.xaml;Resources\MainStyle.xaml;VehicleContent.xaml;
+4-2072480092
+
+23-206812322
+13-131935036
+View\LoadingWait.xaml;View\MainWindow.xaml;Resources\MainStyle.xaml;View\VehicleContent.xaml;
 
 True
 

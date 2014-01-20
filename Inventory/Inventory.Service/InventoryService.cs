@@ -93,7 +93,7 @@ namespace InventoryService
 
         public IEnumerable<InventoryItem> GetItems()
         {
-            Thread.Sleep(1000);
+           // Thread.Sleep(1000);
             return InventoryItems.AsReadOnly();
         }
     }

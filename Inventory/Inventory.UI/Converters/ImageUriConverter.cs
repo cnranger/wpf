@@ -11,7 +11,7 @@ namespace Inventory.UI.Converters
         {
             if (value == null) return DependencyProperty.UnsetValue;
 
-            string convert = string.Format("Images/{0}", value);
+            string convert = string.Format("../Images/{0}", value);
             return convert;
         }
 

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using InventoryService;
 
 namespace Inventory.UI
 {
@@ -48,5 +47,11 @@ namespace Inventory.UI
             throw new ArgumentException(@"The lambda expression to extract the wheel count property is not correct.
                                          You should either supply a null expression, or x=> null / x=> x.WheelCountProperty");
         }
+    }
+
+    public static class Settings
+    {
+        public static readonly Dictionary<Type, Tuple<string, string>> Mapping = new Dictionary<Type, Tuple<string, string>>();
+
     }
 }

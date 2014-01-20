@@ -3,3 +3,8 @@ C:\Users\User\Documents\Visual Studio 2012\Projects\Inventory\Inventory.Core\bin
 C:\Users\User\Documents\Visual Studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.dll
 C:\Users\User\Documents\Visual Studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.pdb
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.Core\obj\Debug\Inventory.Core.csprojResolveAssemblyReference.cache
+C:\Users\User\WPF\Inventory\Inventory.Core\bin\Debug\Inventory.Core.dll
+C:\Users\User\WPF\Inventory\Inventory.Core\bin\Debug\Inventory.Core.pdb
+C:\Users\User\WPF\Inventory\Inventory.Core\obj\Debug\Inventory.Core.dll
+C:\Users\User\WPF\Inventory\Inventory.Core\obj\Debug\Inventory.Core.pdb
+C:\Users\User\WPF\Inventory\Inventory.Core\obj\Debug\Inventory.Core.csprojResolveAssemblyReference.cache

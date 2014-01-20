@@ -10,7 +10,7 @@ namespace Inventory.UI
         void Handle(object sender, Exception e);
     }
 
-    class ExceptionHandler: IExceptionHandler
+    public class ExceptionHandler: IExceptionHandler
     {
         public void Handle(object sender, Exception e)
         {

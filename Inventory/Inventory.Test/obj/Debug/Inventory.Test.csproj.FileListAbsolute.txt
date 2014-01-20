@@ -11,3 +11,16 @@ C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.Test\bin
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.Test\bin\Debug\Inventory.UI.exe
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.Test\bin\Debug\Inventory.Service.pdb
 C:\Users\User\documents\visual studio 2012\Projects\Inventory\Inventory.Test\bin\Debug\Inventory.UI.pdb
+C:\Users\User\WPF\Inventory\Inventory.Test\obj\Debug\Inventory.Test.csprojResolveAssemblyReference.cache
+C:\Users\User\WPF\Inventory\Inventory.Test\obj\Debug\Inventory.Test.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\obj\Debug\Inventory.Test.pdb
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Test.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Test.pdb
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Service.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.UI.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\nunit.framework.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Core.dll
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Service.pdb
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.UI.pdb
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\nunit.framework.xml
+C:\Users\User\WPF\Inventory\Inventory.Test\bin\Debug\Inventory.Core.pdb
