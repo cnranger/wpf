@@ -1,12 +1,14 @@
- <ComboBox.Style>
-                                <Style TargetType="{x:Type ComboBox}" BasedOn="{StaticResource TicketComboBoxStyle}">
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Items.Count}" Value="1">
-                                            <Setter Property="SelectedItem" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Items)[0]}"></Setter>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </ComboBox.Style>
+
+
+ <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Items.Count}" Value="1"/>
+                    <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=SelectedIndex}" Value="-1"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="SelectedIndex" Value="0"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
 
 
          <Setter Property="SelectedIndex" Value="0"></Setter>
