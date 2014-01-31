@@ -7,3 +7,7 @@
                                     </Style.Triggers>
                                 </Style>
                             </ComboBox.Style>
+
+
+         <Setter Property="SelectedIndex" Value="0"></Setter>
+                                   
